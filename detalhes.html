@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frame | Detalhes</title>
-    <link rel="stylesheet" href="detalhes.css">
+    <link rel="stylesheet" href="style/detalhes.css">
 </head>
 <body>
     <header>
         <nav>
+            <a href="index.html" id="frame-logo">Frame</a>
             <a href="">Início</a>
             <a href="detalhes.html">Detalhes</a>
             <a href="">Valores</a>
         </nav>
     </header>
-
     <main>
-        <div>
-            
+        <img src="imagens/interestelar.jpg" alt="Banner do filme Interestelar">
+        
+        <div class="container">
+
+            <span class="genero">Ficção Científica</span>
+
+            <h1>Interestelar</h1>
+
+            <span class="tempo">2014 · 2h 49min</span>
+
+            <p class="sinopse">Em um futuro próximo, a Terra enfrenta problemas que ameaçam a sobrevivência da humanidade. Cooper, um antigo piloto, é recrutado para participar de uma missão espacial que busca encontrar um novo planeta habitável.</p>
+
+            <h2>Equipe Técnica</h2>
+            <p><b>Diretor:</b> Christopher Nolan. <br>
+            <b>Roteiro:</b> Jonathan Nolan e Christopher Nolan <br>
+            <b>Produção:</b> Emma Thomas <br>
+            <b>Elenco:</b> Matthew McConaughey, Anne Hathaway <br>
+            <b>Gênero:</b> Ficção científica, Drama <br><br>
+
+            <p><b>Nota do Público:</b> 8,7 / 10</p>
+
+            <button class="voltar" onclick="window.location.href='index.html'">Voltar aos filmes</button>
         </div>
     </main>
+    <section class="galeria">
+        <h1 style="display: flex; justify-content: flex-start; margin-left: 120px;">Imagens</h1>
+        <div class="galeria-imagens">
+            <img src="imagens/interestelar.jpg" alt="" id="imagem1">
+            <img src="imagens/interestelar.jpg" alt="" id="imagem1">
+            <img src="imagens/interestelar.jpg" alt="" id="imagem1">
+            <img src="imagens/interestelar.jpg" alt="" id="imagem1">
+        </div>
+    </section>
 
     <footer>
-        <div>
-
-        </div>
+        <p>&copy; 2026 Frame. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
