@@ -53,6 +53,7 @@ a:hover {
    margin-top: 20px;
 
 }
+
 h2{color: white;
     text-align: center;
     font-size: 35px;
@@ -78,15 +79,13 @@ table{
     border: 1px solid ;
     border-collapse: collapse;
     border-color:grey;
-    
-    
-    
-
 }
+
 th,td{
     padding: 20px;
     border: 1px solid #333;
 }
+
 th{
     background-color:oklch(37.3% 0.034 259.733);
     font-size: 18px;
@@ -107,5 +106,14 @@ div h3{
 }
 
 fieldset{
-    border-radius: red;
+    border-color: #da0606;
+    padding: 50px;
+}
+
+footer{
+    background-color: #af0707;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
 }
