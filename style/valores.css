@@ -70,6 +70,7 @@ p{
     color: grey;
     text-align: start;
     font-size: 20px;
+    margin-left: 120px;
 }
 
 table{
@@ -103,4 +104,8 @@ div h3{
      font-family: Arial, Helvetica, sans-serif;
      color: white;
      text-align: start;
+}
+
+fieldset{
+    border-radius: red;
 }
