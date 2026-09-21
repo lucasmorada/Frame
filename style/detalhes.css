@@ -104,7 +104,6 @@ p{
 .galeria-imagens img{
     height: 500px;
     width: 300px;
-    object-fit: cover;
     border-radius: 10px;
     margin: 10px;
 }
