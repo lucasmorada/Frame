@@ -105,11 +105,13 @@ div h3{
      text-align: start;
 }
 
-fieldset{
+fieldset {
     border: 2px solid #da0606;
     padding: 50px;
     width: 80%;
-    margin: 40px auto;;
+    display: block;        
+    box-sizing: border-box; 
+    margin: 40px auto;
 }
 
 footer{
