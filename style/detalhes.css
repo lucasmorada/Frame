@@ -63,7 +63,7 @@ h2 {
     margin-top: 20px;
 }
 
-main{
+.ficha{
     display: flex;
     align-items: flex-start;
     padding: 60px 120px;
@@ -83,6 +83,8 @@ p{
 }
 
 .voltar{
+    display: inline-block;
+    background-color: #e8e8e8;
     color: #020202;
     font-size: 20px;
     text-decoration: none;
